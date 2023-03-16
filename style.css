@@ -44,3 +44,62 @@ body, html {
     background: white;
     color: black;
 }
+
+.footer {
+    height: 20vh;
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-bar {
+    background: black;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#info-bar-header {
+    font-family: sans-serif;
+    color: white;
+    font-size: 6em;
+}
+
+#info-bar-text {
+    font-family: sans-serif;
+    color: white;
+}
+
+.main-bar {
+    height: 210vh;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-bar-box {
+    width: 50vw;
+    height: 200vh;
+
+}
+
+#article-header {
+    font-family: sans-serif;
+    margin-top: 2em;
+}
+
+#article-text {
+    font-family: sans-serif;
+    line-height: 1.5em;
+    margin: 3em 0 0 0;
+}
